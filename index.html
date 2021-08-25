@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the family member</title>
+    <style>
+        #aura,#day,#fabio,#kayla,#meiling{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess the family member</h1>
+    <p>Click on ONE of the DOTS to find the picture shown. You have three attempts</p>
+        <div id="hidden-pic">
+            <img src="images/fabio.jpeg" width="200" height="100">
+        </div>
+    <ul>
+     <li id="aura-li"><img src="images/aura.jpeg" width="200" height="100" id="aura"> </li>
+     <li id="day-li"><img src="images/day.jpeg" width="200" height="100" id="day"> </li> <br>
+     <li id="fabio-li"><img src="images/fabio.jpeg" width="200" height="100" id="fabio"></li>
+     <li id="kayla-li"><img src="images/kayla.jpeg" width="200" height="100" id="kayla"></li> <br>
+     <li id="meiling-li"><img src="images/meiling.jpeg" width="200" height="100" id="meiling"></li>
+    </ul>
+    <script src="app.js"></script>
+</body>
+</html>
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing the image</title>
+   
+</head>
+<body>
+    <div class="container">
+      <h1>Guess the image</h1>
+        <p>Enter a number to display the family member you want to match using the buttons below. You have three attempts</p>
+        <div id="hidden-pic">
+        </div>
+        <div class="error-message">
+        </div>
+        <input type="text" id="input" placeholder="Enter a number">
+        <br><br>
+        <button class="active" id="guess-one">1</button>
+        <button id="guess-two">2</button>
+        <button id="guess-three">3</button>
+        <button id="guess-four">4</button>
+        <button id="guess-five">5</button>
+        <br><br>
+        <div id="correct-guess">
+        </div>
+        <div id="correct-guess-text">
+        </div>
+        <div id="remaining-attempts">
+        </div>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
